@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="./style/reset.scss" />
+    <link rel="stylesheet" href="./style//style.scss" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>Yoon Portfolio</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <div class="logo">
+          <img src="./public/logo.png" alt="logo" />
+        </div>
+        <nav class="nav">
+          <ul>
+            <li class="nav_item"><a href="#about">About</a></li>
+            <li class="nav_item"><a href="#project">Work</a></li>
+            <li class="nav_item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="title">
+        <h1>web<br />publisher &<br />portfolio</h1>
+      </div>
+      <div class="about" id="about">
+        <div class="about_decs">
+          팀원과 <span>함께 성장</span>하며 협력의 가치를 실현하는 퍼블리셔가 되고자 합니다. <span>새로운 기술</span>과
+          <span>도전</span>을 두려워하지 않고, <span>끊임없는 학습</span>과 <span>성실한 태도</span>로 실력을 쌓아가며
+          더 나은 결과를 만들어내는 데 <span>집중</span>합니다. 웹을 통해 정보를 전달 하는 것뿐만 아니라 더 편리한
+          <span>사용자 경험을 제공</span>하는 퍼블리셔로 <span>성장</span>해 나가겠습니다.
+        </div>
+      </div>
+      <section class="project" id="project">
+        <h3>My Projects</h3>
+        <ul>
+          <li class="project_item">
+            <a href="https://github.com/HoneyTouse/" target="_blank">
+              <span class="category">website</span>
+              <div class="content">
+                <p class="project_name">꿀단집</p>
+                <div class="skill">
+                  <span>html</span>
+                  <span>css</span>
+                  <span>JavaScript</span>
+                  <span>Vite</span>
+                </div>
+              </div>
+            </a>
+            <span class="github_link">
+              <a href="https://github.com/HoneyTouse/" target="_blank">github</a>
+            </span>
+            <div class="preview">
+              <div class="img">
+                <img src="./public/project_honeyTouse.gif" alt="꿀단집 프로젝트 미리보기" />
+              </div>
+              <span class="preview_text"> 팀 프로젝트로 html과 css, js, vite를 사용하여 제작한 쇼핑몰 입니다. </span>
+            </div>
+          </li>
+          <li class="project_item">
+            <a href="https://github.com/everyoon/its-yours" target="_blank">
+              <span class="category">website</span>
+              <div class="content">
+                <p class="project_name">이제너해</p>
+                <div class="skill">
+                  <span>html</span>
+                  <span>css</span>
+                  <span>JavaScript</span>
+                  <span>Vite</span>
+                  <span>React</span>
+                  <span>Styled_components</span>
+                </div>
+              </div>
+            </a>
+            <span class="github_link">
+              <a href="https://github.com/everyoon/its-yours" target="_blank">github</a>
+            </span>
+            <div class="preview">
+              <div class="img">
+                <img src="./public/project_its_yours.gif" alt="이제너해 프로젝트 미리보기" />
+              </div>
+              <span class="preview_text">
+                팀 프로젝트로 react와 styled_components를 사용하여 제작한 반응형 거래플랫폼 입니다.
+              </span>
+            </div>
+          </li>
+          <li class="project_item">
+            <a href="https://everyoon.github.io/Never/" target="_blank">
+              <span class="category">website</span>
+              <div class="content">
+                <p class="project_name">naver</p>
+                <div class="skill">
+                  <span>html</span>
+                  <span>css</span>
+                  <span>clone</span>
+                </div>
+              </div>
+            </a>
+            <span class="github_link">
+              <a href="https://github.com/everyoon/Never" target="_blank">github</a>
+            </span>
+            <div class="preview">
+              <div class="img">
+                <img src="./public/project_naver.gif" alt="네이버 프로젝트 미리보기" />
+              </div>
+              <span class="preview_text"> 네이버 공식 사이트를 클론코딩하여 제작한 적응형 PC 웹사이트 입니다. </span>
+            </div>
+          </li>
+          <li class="project_item">
+            <a href="https://everyoon.github.io/CurryCafe/" target="_blank">
+              <span class="category">website</span>
+              <div class="content">
+                <p class="project_name">CurryCafe</p>
+                <div class="skill">
+                  <span>html</span>
+                  <span>css</span>
+                  <span>clone</span>
+                  <span>JavaScript</span>
+                  <span>Jqyery</span>
+                </div>
+              </div>
+            </a>
+            <span class="github_link">
+              <a href="https://github.com/everyoon/CurryCafe" target="_blank">github</a>
+            </span>
+            <div class="preview">
+              <div class="img">
+                <img src="./public/project_currycafe.gif" alt="CurryCafe 프로젝트 미리보기" />
+              </div>
+              <span class="preview_text">
+                CurryCafe 공식 사이트를 클론코딩하여 제작한 반응형 PC버전 웹사이트 입니다.
+              </span>
+            </div>
+          </li>
+          <li class="project_item">
+            <a href="https://everyoon.github.io/Lush/" target="_blank">
+              <span class="category">website</span>
+              <div class="content">
+                <p class="project_name">Lush</p>
+                <div class="skill">
+                  <span>html</span>
+                  <span>css</span>
+                  <span>JavaScript</span>
+                  <span>Gsap</span>
+                </div>
+              </div>
+            </a>
+            <span class="github_link">
+              <a href="https://github.com/everyoon/Lush" target="_blank">github</a>
+            </span>
+            <div class="preview">
+              <div class="img">
+                <img src="./public/project_lush.gif" alt="Lush 프로젝트 미리보기" />
+              </div>
+              <span class="preview_text">
+                Lush 공식사이트와 레퍼런스 사이트를 참고하여 제작한 반응형 PC 웹사이트 입니다.
+              </span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <div class="animated-text">
+        <div class="animated-text_inner">
+          <div>
+            <span>HTML ✨ CSS ✨ SCSS ✨ JavaScript ✨ Jqyery ✨ Gsap ✨ React ✨ Github ✨ Figma ✨ Photoshop ✨</span>
+            <span>HTML ✨ CSS ✨ SCSS ✨ JavaScript ✨ Jqyery ✨ Gsap ✨ React ✨ Github ✨ Figma ✨ Photoshop ✨</span>
+            <span>HTML ✨ CSS ✨ SCSS ✨ JavaScript ✨ Jqyery ✨ Gsap ✨ React ✨ Github ✨ Figma ✨ Photoshop ✨</span>
+          </div>
+        </div>
+      </div>
+      <section class="contact" id="contact">
+        <h3>Let’s work together</h3>
+        <div class="contact_inner">
+          <div class="email box">
+            <a href="mailto:jy.k7377@gmail.com">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_34_105)">
+                    <path
+                      d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6ZM20 6L12 11L4 6H20ZM20 18H4V8L12 13L20 8V18Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_34_105">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <span class="text">email</span>
+            </a>
+          </div>
+          <div class="phone box">
+            <a href="tel:010-8555-9331">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_34_108)">
+                    <path
+                      d="M17 1.01L7 1C5.9 1 5 1.9 5 3V21C5 22.1 5.9 23 7 23H17C18.1 23 19 22.1 19 21V3C19 1.9 18.1 1.01 17 1.01ZM17 19H7V5H17V19Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_34_108">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <span class="text">phone</span>
+            </a>
+          </div>
+          <div class="github box">
+            <a href="https://github.com/everyoon" target="_blank">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.9 2.09998C6.30001 2.59998 2.60001 6.29998 2.10001 10.8C1.60001 15.5 4.30001 19.7 8.40001 21.3C8.70001 21.4 9.00001 21.2 9.00001 20.8V19.2C9.00001 19.2 8.60001 19.3 8.10001 19.3C6.70001 19.3 6.10001 18.1 6.00001 17.4C5.90001 17 5.70001 16.7 5.40001 16.4C5.10001 16.3 5.00001 16.3 5.00001 16.2C5.00001 16 5.30001 16 5.40001 16C6.00001 16 6.50001 16.7 6.70001 17C7.20001 17.8 7.80001 18 8.10001 18C8.50001 18 8.80001 17.9 9.00001 17.8C9.10001 17.1 9.40001 16.4 10 16C7.70001 15.5 6.00001 14.2 6.00001 12C6.00001 10.9 6.50001 9.79998 7.20001 8.99998C7.10001 8.79998 7.00001 8.29998 7.00001 7.59998C7.00001 7.19998 7.00001 6.59998 7.30001 5.99998C7.30001 5.99998 8.70001 5.99998 10.1 7.29998C10.6 7.09998 11.3 6.99998 12 6.99998C12.7 6.99998 13.4 7.09998 14 7.29998C15.3 5.99998 16.8 5.99998 16.8 5.99998C17 6.59998 17 7.19998 17 7.59998C17 8.39998 16.9 8.79998 16.8 8.99998C17.5 9.79998 18 10.8 18 12C18 14.2 16.3 15.5 14 16C14.6 16.5 15 17.4 15 18.3V20.9C15 21.2 15.3 21.5 15.7 21.4C19.4 19.9 22 16.3 22 12.1C22 6.09998 16.9 1.39998 10.9 2.09998Z"
+                  />
+                </svg>
+              </div>
+              <span class="text">github</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <span class="copylight">© 2025 JIYOON</span>
+        <span><a href="https://little-moss.tistory.com/" target="_blank">T-STORY</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
